@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="733efc4d-a2ed-4b03-b37a-512a081ff1bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/any.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/characters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/home_works.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/home_works.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/home_works.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/home_works.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/lesson.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lesson.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home_works.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home_works.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/lessons.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lessons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/monster.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/monster.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2hSRbQpuOhFHhKRQw3FV3owSn1v" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/work/groups/47-02/lesson7",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="733efc4d-a2ed-4b03-b37a-512a081ff1bd" name="Changes" comment="" />
+      <created>1717585562820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717585562820</updated>
+      <workItem from="1717585563858" duration="7675000" />
+      <workItem from="1717844267136" duration="6400000" />
+      <workItem from="1718189616607" duration="7962000" />
+      <workItem from="1718448969104" duration="4890000" />
+      <workItem from="1718792889085" duration="7385000" />
+      <workItem from="1718972496093" duration="16000" />
+      <workItem from="1719053841900" duration="4716000" />
+      <workItem from="1719398902639" duration="14276000" />
+      <workItem from="1720002873707" duration="6213000" />
+      <workItem from="1725270233401" duration="384000" />
+      <workItem from="1725270931019" duration="6244000" />
+      <workItem from="1725533420525" duration="5805000" />
+      <workItem from="1725878032822" duration="7128000" />
+      <workItem from="1725894617740" duration="14000" />
+      <workItem from="1726138382523" duration="4016000" />
+      <workItem from="1726486311559" duration="7746000" />
+      <workItem from="1726743717746" duration="5348000" />
+      <workItem from="1727089291111" duration="5523000" />
+      <workItem from="1727096808250" duration="5949000" />
+      <workItem from="1727693399719" duration="3249000" />
+      <workItem from="1727701186857" duration="3104000" />
+      <workItem from="1727959463953" duration="2992000" />
+      <workItem from="1728114367935" duration="55000" />
+      <workItem from="1728471202355" duration="8212000" />
+      <workItem from="1728737430876" duration="3407000" />
+      <workItem from="1729083724526" duration="4338000" />
+      <workItem from="1729257968367" duration="11000" />
+      <workItem from="1729342902519" duration="1716000" />
+      <workItem from="1729688814876" duration="7767000" />
+      <workItem from="1730371983459" duration="3109000" />
+      <workItem from="1730717805912" duration="2035000" />
+      <workItem from="1730976233517" duration="5024000" />
+      <workItem from="1731322847616" duration="1835000" />
+      <workItem from="1731582049029" duration="3693000" />
+      <workItem from="1731927752154" duration="2681000" />
+      <workItem from="1732187133544" duration="6145000" />
+      <workItem from="1732532000476" duration="622000" />
+      <workItem from="1733135781586" duration="1605000" />
+      <workItem from="1735812739155" duration="4510000" />
+      <workItem from="1736158696260" duration="6722000" />
+      <workItem from="1736279894982" duration="35000" />
+      <workItem from="1736418492970" duration="6762000" />
+      <workItem from="1736765092573" duration="4836000" />
+      <workItem from="1736828905388" duration="12000" />
+      <workItem from="1737023782266" duration="7923000" />
+      <workItem from="1737104454241" duration="15000" />
+      <workItem from="1737373366999" duration="2169000" />
+      <workItem from="1737627609199" duration="14042000" />
+      <workItem from="1737975012465" duration="763000" />
+      <workItem from="1738055601066" duration="5000" />
+      <workItem from="1738578505166" duration="4187000" />
+      <workItem from="1738838839047" duration="2543000" />
+      <workItem from="1738846717908" duration="19000" />
+      <workItem from="1739185013195" duration="4016000" />
+      <workItem from="1739444246366" duration="1890000" />
+      <workItem from="1739788855400" duration="4235000" />
+      <workItem from="1739793198121" duration="1146000" />
+      <workItem from="1740048901222" duration="2011000" />
+      <workItem from="1740394776240" duration="5444000" />
+      <workItem from="1743408769307" duration="349000" />
+      <workItem from="1743416990056" duration="7372000" />
+      <workItem from="1743677603952" duration="4925000" />
+      <workItem from="1743835909620" duration="28000" />
+      <workItem from="1744022783004" duration="7241000" />
+      <workItem from="1744282388662" duration="3824000" />
+      <workItem from="1744628334613" duration="3311000" />
+      <workItem from="1744886826414" duration="4562000" />
+      <workItem from="1745233108004" duration="9643000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
