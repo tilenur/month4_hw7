@@ -53,19 +53,17 @@ setInterval(() => {
   showTabContent(index);
 }, 3000);
 
-// CONVERTER (DRY version)
+// CONVERTER (DRY version with async/await + try/catch)
 const somInput = document.querySelector("#som");
 const usdInput = document.querySelector("#usd");
 const eurInput = document.querySelector("#eur");
 
-const converter = () => {
-  const request = new XMLHttpRequest();
-  request.open("GET", "../data/converter.json");
-  request.setRequestHeader("Content-type", "application/json");
-  request.send();
+const converter = async () => {
+  try {
+    const response = await fetch("../data/converter.json");
+    if (!response.ok) throw new Error("Ошибка загрузки данных");
 
-  request.onload = () => {
-    const data = JSON.parse(request.response);
+    const data = await response.json();
 
     const convert = (source, target1, target2, rate1, rate2) => {
       source.oninput = () => {
@@ -88,30 +86,38 @@ const converter = () => {
     convert(somInput, usdInput, eurInput, data.usd, data.eur);
     convert(usdInput, somInput, eurInput, data.usd, data.eur);
     convert(eurInput, somInput, usdInput, data.eur, data.usd);
-  };
+  } catch (error) {
+    console.error("Ошибка при конвертации:", error);
+  }
 };
 
 converter();
 
-// CARD SWITCHER — Task 1
+// CARD SWITCHER — Task 1 (async/await + try/catch)
 const cardBlock = document.querySelector(".card");
 const btnNext = document.querySelector("#btn-next");
 const btnPrev = document.querySelector("#btn-prev");
 let cardId = 1;
 
-const fetchCard = (id) => {
-  fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
-    .then((res) => res.json())
-    .then(({ id, title, completed }) => {
-      cardBlock.innerHTML = `
-        <p>${title}</p>
-        <p style="color: ${completed ? "green" : "red"}">${completed}</p>
-        <span>${id}</span>
-      `;
-    });
+const fetchCard = async (id) => {
+  try {
+    const response = await fetch(
+      `https://jsonplaceholder.typicode.com/todos/${id}`
+    );
+    if (!response.ok) throw new Error("Ошибка при загрузке карточки");
+
+    const { title, completed, id: cardID } = await response.json();
+
+    cardBlock.innerHTML = `
+      <p>${title}</p>
+      <p style="color: ${completed ? "green" : "red"}">${completed}</p>
+      <span>${cardID}</span>
+    `;
+  } catch (error) {
+    console.error("Ошибка при получении карточки:", error);
+  }
 };
 
-// Show first card on page load
 fetchCard(cardId);
 
 btnNext.onclick = () => {
@@ -124,10 +130,20 @@ btnPrev.onclick = () => {
   fetchCard(cardId);
 };
 
-// FETCH POSTS TO CONSOLE — Task 2
-fetch("https://jsonplaceholder.typicode.com/posts")
-  .then((res) => res.json())
-  .then((data) => console.log("POSTS:", data));
+// FETCH POSTS TO CONSOLE — Task 2 (async/await + try/catch)
+const fetchPosts = async () => {
+  try {
+    const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+    if (!response.ok) throw new Error("Ошибка при загрузке постов");
+
+    const data = await response.json();
+    console.log("POSTS:", data);
+  } catch (error) {
+    console.error("Ошибка при получении постов:", error);
+  }
+};
+
+fetchPosts();
 
 // WEATHER
 
